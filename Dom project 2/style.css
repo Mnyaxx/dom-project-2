@@ -1,5 +1,21 @@
+body{
+    /* Set the background image */
+    background-image:url('pexels-pixabay-220502.jpg');
+        /* Optional: Set the background size to cover the entire element */
+        background-size: cover;
 
+        /* Optional: Set the background to be centered */
+        background-position: center;
 
+        /* Optional: Ensure the background doesn't repeat */
+        background-repeat: no-repeat;
+
+        /* Optional: Set a minimum height for the container */
+        min-height: 100vh;
+
+        /* Optional: Add some padding */
+        padding: 20px;
+}
 .container {
     display: flex;
     justify-content: center;
@@ -30,5 +46,7 @@
 #change-color-btn:hover {
     background-color: #96E072;
 }
+
+
 
 
